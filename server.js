@@ -5,7 +5,7 @@ var path = require('path');
 var socketIO = require('socket.io');
 
 //set the port
-var port = 8080;
+const port = process.env.PORT || 8080;
 
 //initialize framework
 var players = {};
